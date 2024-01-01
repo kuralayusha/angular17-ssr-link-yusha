@@ -1,0 +1,32 @@
+<div class="home-container">
+  <div class="sections">
+    <div id="logo">
+      <img
+        [src]="'/assets/images/' + aboutPageData.profilePhoto"
+        [alt]="aboutPageData.profilePhotoAlt"
+      />
+      <h1>Hi I'm Yusha | Frontend Developer</h1>
+    </div>
+
+    <section id="hakkimizda">
+      @for (text of aboutPageData.content; track $index) {
+
+      <p><span style="margin-left: 30px"></span>{{ text }}</p>
+      <br />
+      }
+    </section>
+  </div>
+
+  <div class="footer">
+    <p>{{ footerData.rights }}</p>
+    <p>
+      Created by
+      <a
+        style="color: blue"
+        [href]="footerData.authorLink"
+        [target]="footerData.target"
+        >{{ footerData.author }}</a
+      >
+    </p>
+  </div>
+</div>

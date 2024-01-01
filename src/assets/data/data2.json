@@ -1,0 +1,101 @@
+{
+  "linkPage": {
+    "profilePhoto": "Image.jpg",
+    "profilePhotoAlt": "Başkent Üniversitesi Kamu Dimplomasisi Topluluğu | Logosu",
+    "name": "Hi I'm Yusha | Frontend Developer",
+    "linkSections": [
+      {
+        "sectionTitle": "",
+        "id": "join",
+        "links": [
+          {
+            "type": "href",
+            "target": "",
+            "url": "dynamicHakkimizda",
+            "title": "About Me",
+            "src": "about.svg",
+            "srcAlt": ""
+          },
+          {
+            "type": "href",
+            "target": "",
+            "url": "https://yusha.dev",
+            "title": "See Portfolio Website",
+            "src": "goals.svg",
+            "srcAlt": ""
+          },
+          {
+            "type": "href",
+            "target": "",
+            "url": "https://forms.gle/GQbuxbXvSxJFos7g6",
+            "title": "Kuralay's Blog (Comming Soon)",
+            "src": "people.svg",
+            "srcAlt": ""
+          }
+        ]
+      },
+      {
+        "id": "socials",
+        "sectionTitle": "Links",
+        "links": [
+          {
+            "type": "href",
+            "target": "_blank",
+            "url": "https://github.com/kuralayusha",
+            "title": "Github",
+            "src": "github.svg",
+            "srcAlt": "svg-logo"
+          },
+          {
+            "type": "href",
+            "target": "_blank",
+            "url": "https://www.linkedin.com/in/yusha-kuralay-6abb161b0/",
+            "title": "Linkedin",
+            "src": "linkedin.svg",
+            "srcAlt": "svg-logo"
+          },
+          {
+            "type": "href",
+            "target": "_blank",
+            "url": "https://www.instagram.com/kuralayusha",
+            "title": "Instagram",
+            "src": "instagram.svg",
+            "srcAlt": "svg-logo"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "sectionTitle": "Contact Me!",
+        "links": [
+          {
+            "type": "href",
+            "target": "_blank",
+            "url": "mailto:kuralayusha@gmail.com",
+            "title": "Contact Me!",
+            "src": "mail.svg",
+            "srcAlt": "svg-mail"
+          }
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "profilePhoto": "Image.jpg",
+    "profilePhotoAlt": "Başkent Üniversitesi Kamu Dimplomasisi Topluluğu | Logosu",
+    "name": "Hi I'm Yusha | Frontend Developer",
+    "content": [
+      "Hello! Let me briefly introduce myself: I'm Yusha, born in Germany in 2001, and my journey led me to Turkey shortly thereafter, where I continued my education. While studying Computer Engineering at Ankara University, I discovered my passion for frontend development and took it upon myself to self-educate. After laying the foundations with HTML, CSS, and JavaScript, I delved into React, TypeScript and Next.js.",
+      "During my freelancing days, I found great excitement in developing customized tools and websites tailored to the specific needs of my clients. Subsequently, I joined Arksoft as a frontend developer, making a swift transition to the Angular technology the company used within just two weeks.",
+      "From the early days, I revamped the company's main and product websites, contributing to significant projects. Simultaneously, I embarked on creating the SEO-friendly website for the Easy2Patch product from scratch. Throughout this period, I actively participated in the development of various B2B products within the company.",
+      "Following the successful completion of the Easy2Patch web project, I took on the challenge of building the 4.0 version of the Easy2Patch product for the web, leveraging Windows service technology. Although I am at the early stages of my career, I've been steadily advancing with ambition and determination, continually striving for self-improvement.",
+      "Having successfully navigated through various projects, I eagerly anticipate more successes in the future! I believe that overcoming challenges along the way will only strengthen me, bringing me one step closer to achieving my goals."
+    ]
+  },
+  "footer": {
+    "rights": "© 2023 Yusha Kuralay. All rights reserved.",
+    "author": "Yusha Kuralay",
+    "authorLink": "https://link.yusha.dev/",
+    "tartget": "_blank"
+  }
+}

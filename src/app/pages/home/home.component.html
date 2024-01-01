@@ -1,0 +1,42 @@
+<div class="home-container">
+  <div class="sections">
+    <div id="logo">
+      <img
+        [src]="'/assets/images/' + homePageData.profilePhoto"
+        [alt]="homePageData.profilePhotoAlt"
+      />
+      <h1>Hi I'm Yusha | Frontend Developer</h1>
+    </div>
+
+    <!-- create a @for loop angular17 for  let section of homePageData.linkSections-->
+
+    @for (section of homePageData.linkSections; track $index) {
+    <section [id]="section.id">
+      @if (section.sectionTitle) {
+      <h2>{{ section.sectionTitle }}</h2>
+      } @for (link of section.links; track $index) {
+
+      <a [target]="link.target" [href]="link.url">
+        <img [src]="'/assets/images/' + link.src" [alt]="link.srcAlt" />
+
+        <p>{{ link.title }}</p>
+      </a>
+      }
+      <hr />
+    </section>
+    }
+  </div>
+
+  <div class="footer">
+    <p>{{ footerData.rights }}</p>
+    <p>
+      Created by
+      <a
+        style="color: blue"
+        [href]="footerData.authorLink"
+        [target]="footerData.target"
+        >{{ footerData.author }}</a
+      >
+    </p>
+  </div>
+</div>

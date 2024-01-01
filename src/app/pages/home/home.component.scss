@@ -1,0 +1,134 @@
+.home-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 50px 10px 0 10px;
+
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+  }
+
+  .sections {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    section {
+      margin-top: 30px;
+      //   background-color: aqua;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+    }
+
+    hr {
+      max-width: 485px;
+      margin-top: 40px;
+      width: 100%;
+      height: 1px;
+      border: 1px solid rgb(240, 240, 240);
+    }
+
+    #join,
+    #socials,
+    #contact {
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      position: relative;
+      width: 100%;
+      max-width: 485px;
+      height: 50px;
+      background-color: rgb(240, 240, 240);
+      margin-top: 15px;
+      border-radius: 50px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-decoration: none;
+      color: black;
+
+      img {
+        position: absolute;
+        left: 15px;
+        width: 25px;
+        height: 25px;
+
+        transition: all 0.2s ease-in-out;
+      }
+
+      transition: all 0.2s ease-in-out;
+    }
+
+    a:hover {
+      background-color: rgb(0, 0, 0);
+      color: white;
+
+      img {
+        filter: invert(1);
+      }
+    }
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    margin-bottom: 10px;
+
+    p {
+      margin-top: 10px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
